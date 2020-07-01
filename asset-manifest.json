@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/country-quiz/static/js/main.bab0ff5b.chunk.js",
+    "main.js.map": "/country-quiz/static/js/main.bab0ff5b.chunk.js.map",
+    "runtime-main.js": "/country-quiz/static/js/runtime-main.ba5928b2.js",
+    "runtime-main.js.map": "/country-quiz/static/js/runtime-main.ba5928b2.js.map",
+    "static/js/2.9731b8e4.chunk.js": "/country-quiz/static/js/2.9731b8e4.chunk.js",
+    "static/js/2.9731b8e4.chunk.js.map": "/country-quiz/static/js/2.9731b8e4.chunk.js.map",
+    "index.html": "/country-quiz/index.html",
+    "precache-manifest.aa8d563a9f25d974169643f60fe58297.js": "/country-quiz/precache-manifest.aa8d563a9f25d974169643f60fe58297.js",
+    "service-worker.js": "/country-quiz/service-worker.js",
+    "static/js/2.9731b8e4.chunk.js.LICENSE.txt": "/country-quiz/static/js/2.9731b8e4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ba5928b2.js",
+    "static/js/2.9731b8e4.chunk.js",
+    "static/js/main.bab0ff5b.chunk.js"
+  ]
+}
