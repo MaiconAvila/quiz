@@ -242,55 +242,11 @@ export default class App extends Component {
       screen: false,
       count: 1,
       timer: 3
-    });
-    // this.counting();
+    })
   }
-
-  // componentDidMount() {
-  //   this.counting();
-  // }
-
-  // counting = () => {
-  //   const { count, questions, clickedLabel, answer, second } = this.state;
-    
-  //   if(this.state.timer !== null && this.state.count <= 5) {
-  //     this.counter = setInterval(() => {
-
-  //       clearInterval(this.counter);
-  //       this.counting();
-        
-  //       if(this.state.timer === 0) {
-  //         this.setState({
-  //           count: count + 1,
-  //           answer: clickedLabel.currectAnswer ? answer + 1 : answer,
-  //           error: false,
-  //           timer: 3
-  //         })
-
-  //       clearInterval(this.counter)
-  //       this.counting();
-
-  //       } else {
-  //         this.setState({
-  //           timer: this.state.timer - 1,
-  //         })
-
-  //       // clearInterval(this.counter)
-  //       // this.counting();
-  //       }
-
-  //       // console.log(this.state.timer)
-  //     }, 1000)
-  //   }
-  //   console.log(questions.length, count, questions.length - 1)
-
-  // }
 
   handleClick = () => {
     const { count, questions, clickedLabel, answer, second } = this.state;
-
-    // clearInterval(this.counter)
-    // this.counting();
 
     if(questions.length >= count && clickedLabel.label) {
       this.setState({
@@ -308,7 +264,6 @@ export default class App extends Component {
     }
     
     if(this.state.count >= 5) {
-      // clearInterval(this.counter)
       this.setState({
         screenFinish: true,
         clickedLabel: {}
@@ -361,7 +316,6 @@ export default class App extends Component {
     return removeQuestions.map((quest, index) => (
       <Container key={index}>
         <ScreenQuiz>
-          {/* <p>{timer}</p> */}
           <Title>{quest.question}</Title>
           <ContainerLabel>
             {this.handleOptions(quest.alternatives)}
